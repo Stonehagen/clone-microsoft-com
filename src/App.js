@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from './components/Header';
 import './styles/App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <div className="Header">HEADER MENU</div>
+      <Header />
       <div className="Main">
         <div className="Carousel-Wide">Carousel</div>
         <div className="Shop-List">Buy Stuff</div>
