@@ -1,0 +1,65 @@
+.Header {
+  display: flex;
+  height: 54px;
+  margin: 0 0 2px 0;
+  font-size: 13px;
+  justify-content: space-between;
+  padding: 0 61.5px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.Header-Nav-Left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Header-Nav-Left li {
+  margin: 0px 10.8px;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+}
+
+.Header-Nav-Left li:hover {
+  border-bottom: 2px solid rgb(38, 38, 38);
+  cursor: pointer;
+}
+
+.Header-Nav-Left .logo {
+  height: 23px;
+  padding: 13px 11px 16px 10px;
+}
+
+.Header ul {
+  list-style: none;
+  display: flex;
+  padding: 13px 8px 10px 8px;
+}
+
+.Header-Nav-Right {
+  gap: 16px;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.All-Microsoft {
+  margin: 0 5px 1px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.All-Microsoft span {
+  border-bottom: 2px solid transparent;
+}
+
+.All-Microsoft svg {
+  margin-top: 7px;
+}
+
+
+.All-Microsoft span:hover {
+  border-bottom: 2px solid rgb(38, 38, 38);
+  cursor: pointer;
+}

@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), url(../fonts/Ser\ light.woff2) format('woff');
+}
+
+
+body {
+  margin: 0;
+}
+
 .App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: rgb(38, 38, 38);
 }
