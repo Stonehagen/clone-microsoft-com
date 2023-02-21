@@ -1,5 +1,8 @@
 import React from 'react';
+import AdList from './components/AdList';
+import CarouselWide from './components/CarouselWide';
 import Header from './components/Header';
+import News from './components/News';
 import './styles/App.css';
 
 const App = () => {
@@ -7,12 +10,14 @@ const App = () => {
     <div className="App">
       <Header />
       <div className="Main">
-        <div className="Carousel-Wide">Carousel</div>
-        <div className="Shop-List">Buy Stuff</div>
-        <div className="News-Grid">News</div>
-        <div className="Xbox-Hero">XBOX</div>
-        <div className="News-Grid-Business">Business News</div>
-        <div className="Carousel-Small">Carousel</div>
+        <CarouselWide />
+        <div className="Sub-Main">
+          <AdList />
+          <News />
+          <div className="Xbox-Hero">XBOX</div>
+          <div className="News-Grid-Business">Business News</div>
+          <div className="Carousel-Small">Carousel</div>
+        </div>
         <div className="Social-List"></div>
         <button>Back to top</button>
       </div>

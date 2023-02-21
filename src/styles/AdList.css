@@ -1,0 +1,25 @@
+.Ad-List {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Ad-Card {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 9px;
+  margin: 8px 24px;
+  justify-items: center;
+  font-family: 'Segoe UI B';
+}
+
+.Ad-Card a {
+  color: #0067B8;
+  font-size: 16px;
+  width: 100%;
+}
+

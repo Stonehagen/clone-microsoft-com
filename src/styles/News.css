@@ -1,0 +1,50 @@
+.News {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 24px;
+}
+
+.News-Card img {
+  width: 100%;
+  height: 33%;
+  object-fit: cover;
+}
+
+.News h2 {
+  font-family: 'Segoe UI B';
+  margin-bottom: 0;
+}
+
+.News p {
+  margin-top: 12px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.News-Card-Heading {
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.News-Card-Heading h3 {
+  background-color: #ffb922;
+  margin-top: 45px;
+  padding: 3px 11px;
+  width: 34px;
+  font-size: 1em;
+  font-family: 'Segoe UI B';
+}
+
+.News-Card a {
+  text-decoration: none;
+  font-family: 'Segoe UI B';
+  color: #0067b8;
+  font-size: 16px;
+  width: 100%;
+}
+
+.News-Card-Link-Div {
+  margin: 15px 0;
+}
