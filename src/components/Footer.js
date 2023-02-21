@@ -102,6 +102,41 @@ const Footer = () => {
           );
         })}
       </div>
+      <div className="Footer-Closing">
+        <ul>
+          <li>
+            <a href="/site">English (United States)</a>
+          </li>
+          <li>
+            <a href="/site">Sitemap</a>
+          </li>
+          <li>
+            <a href="/site">Contact Microsoft</a>
+          </li>
+          <li>
+            <a href="/site">Privacy</a>
+          </li>
+          <li>
+            <a href="/site">Manage cookies</a>
+          </li>
+          <li>
+            <a href="/site">Terms of use</a>
+          </li>
+          <li>
+            <a href="/site">Trademarks</a>
+          </li>
+          <li>
+            <a href="/site">Safety & eco</a>
+          </li>
+          <li>
+            <a href="/site">Recycling</a>
+          </li>
+          <li>
+            <a href="/site">About our ads</a>
+          </li>
+          <li>© Microsoft 2023</li>
+        </ul>
+      </div>
     </div>
   );
 };

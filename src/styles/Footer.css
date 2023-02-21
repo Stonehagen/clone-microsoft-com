@@ -1,17 +1,22 @@
 .Footer {
   background-color: #F2F2F2;
   margin-top: 50px;
+  padding: 0 58px;
 }
 
 .Footer-Links {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 30px;
+  gap: 15px;
 }
 
-.Footer ul {
+.Footer-Links ul {
   list-style: none;
+  margin: 0;
+  padding: 0 ;
   display: grid;
-  gap: 5px;
+  gap: 15px;
 }
 
 .Footer a {
@@ -25,9 +30,32 @@
   cursor: pointer;
 }
 
-.Footer h4 {
+.Footer-Links h4 {
   font-size: 15px;
   font-family:'Segoe UI B';
   color: #616161;
+  margin: 36px 0 4px 0;
+  padding: 0;
+}
+
+.Footer-Closing {
+  height: 50px;
+  display: flex;
+  align-items: center;
+} 
+
+.Footer-Closing ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
   margin: 0;
+  justify-content: space-between;
+}
+
+.Footer li {
+  color: #616161;
+  text-decoration: none;
+  font-size: 11px;
 }
