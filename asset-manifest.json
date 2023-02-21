@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/clone-microsoft-com/static/css/main.1a258b5c.css",
+    "main.js": "/clone-microsoft-com/static/js/main.11dd9d4a.js",
+    "static/media/xbox-wide.png": "/clone-microsoft-com/static/media/xbox-wide.a4958f5213176825726d.png",
+    "static/media/Highlight-Small.png": "/clone-microsoft-com/static/media/Highlight-Small.51458f98b66ee1483184.png",
+    "static/media/small-car.png": "/clone-microsoft-com/static/media/small-car.f6d48dbd73d598eb6f94.png",
+    "static/media/Highlight-Surface-Wide.png": "/clone-microsoft-com/static/media/Highlight-Surface-Wide.293cb132c3a2d122e033.png",
+    "static/media/Xbox-Carou.png": "/clone-microsoft-com/static/media/Xbox-Carou.007ce73aef3213fae657.png",
+    "static/media/Ser light.woff2": "/clone-microsoft-com/static/media/Ser light.1a84982fb6140613fadc.woff2",
+    "static/media/Ser.woff2": "/clone-microsoft-com/static/media/Ser.c408ee083ec612e2efcf.woff2",
+    "static/media/news6.png": "/clone-microsoft-com/static/media/news6.bfe61be67e1bef14e502.png",
+    "static/media/news1.png": "/clone-microsoft-com/static/media/news1.1dba49f2f283b0012526.png",
+    "static/media/news4.png": "/clone-microsoft-com/static/media/news4.bca7f81b68ab50b70cf7.png",
+    "static/media/news5.png": "/clone-microsoft-com/static/media/news5.725ae7258f55e5e5206c.png",
+    "static/media/news7.png": "/clone-microsoft-com/static/media/news7.51070e797846c9814d01.png",
+    "static/media/news3.png": "/clone-microsoft-com/static/media/news3.79c6ff8ce5470968650f.png",
+    "static/media/news2.png": "/clone-microsoft-com/static/media/news2.cf096c84a1fc5732a384.png",
+    "static/media/circle-drashed.svg": "/clone-microsoft-com/static/media/circle-drashed.1168b37cb02549e1918a96a6eb5fcf9f.svg",
+    "static/media/cart.svg": "/clone-microsoft-com/static/media/cart.0cf833e309d613e866eeffcfffeff4c7.svg",
+    "static/media/profile.svg": "/clone-microsoft-com/static/media/profile.0272b99a94f3315f3d4c294acdd5fbfa.svg",
+    "static/media/arrow-left.svg": "/clone-microsoft-com/static/media/arrow-left.26207b0f17e0700bcac1eddeb4c8d648.svg",
+    "static/media/arrow-right.svg": "/clone-microsoft-com/static/media/arrow-right.1a936cc1cc70847e00079d97f51427ca.svg",
+    "index.html": "/clone-microsoft-com/index.html",
+    "static/media/circle-svgrepo.svg": "/clone-microsoft-com/static/media/circle-svgrepo.f80611166eb255babf3a4fca8ab2b896.svg",
+    "static/media/search.svg": "/clone-microsoft-com/static/media/search.c2c85279ba2fecfb86b3929ba6f706b3.svg",
+    "static/media/dropDown.svg": "/clone-microsoft-com/static/media/dropDown.d4919bd171db980169a0d30930a4bcb1.svg",
+    "main.1a258b5c.css.map": "/clone-microsoft-com/static/css/main.1a258b5c.css.map",
+    "main.11dd9d4a.js.map": "/clone-microsoft-com/static/js/main.11dd9d4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a258b5c.css",
+    "static/js/main.11dd9d4a.js"
+  ]
+}
