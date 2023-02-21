@@ -1,9 +1,11 @@
 import React from 'react';
 import AdList from './components/AdList';
 import BusinessNews from './components/BusinessNews';
+import CarouselSmall from './components/CarouselSmall';
 import CarouselWide from './components/CarouselWide';
 import Header from './components/Header';
 import News from './components/News';
+import SocialList from './components/SocialList';
 import XboxHero from './components/XboxHero';
 import './styles/App.css';
 
@@ -19,10 +21,9 @@ const App = () => {
           <XboxHero />
           <h1>For business</h1>
           <BusinessNews />
-          <div className="Carousel-Small">Carousel</div>
+          <CarouselSmall />
+          <SocialList />
         </div>
-        <div className="Social-List"></div>
-        <button>Back to top</button>
       </div>
       <div className="Footer">FOOTER TEXT</div>
     </div>
