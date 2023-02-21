@@ -3,6 +3,7 @@ import AdList from './components/AdList';
 import BusinessNews from './components/BusinessNews';
 import CarouselSmall from './components/CarouselSmall';
 import CarouselWide from './components/CarouselWide';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import News from './components/News';
 import SocialList from './components/SocialList';
@@ -25,7 +26,7 @@ const App = () => {
           <SocialList />
         </div>
       </div>
-      <div className="Footer">FOOTER TEXT</div>
+      <Footer />
     </div>
   );
 };

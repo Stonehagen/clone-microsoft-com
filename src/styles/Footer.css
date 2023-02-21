@@ -1,0 +1,33 @@
+.Footer {
+  background-color: #F2F2F2;
+  margin-top: 50px;
+}
+
+.Footer-Links {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.Footer ul {
+  list-style: none;
+  display: grid;
+  gap: 5px;
+}
+
+.Footer a {
+  color: #616161;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Footer h4 {
+  font-size: 15px;
+  font-family:'Segoe UI B';
+  color: #616161;
+  margin: 0;
+}
