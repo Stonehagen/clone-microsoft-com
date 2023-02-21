@@ -1,9 +1,93 @@
-.Carousel-Wide {
-  background-color: #f2f2f2;
-  margin-bottom: 48px;
+.No-Look {
+  scrollbar-width: 0px;
+  display: grid;
+  grid-template-columns: 100% 100%;
+  overflow-x:hidden ;
 }
 
+.Carousel-Slide {
+  background-color: #f2f2f2;
+  transition: margin 0.5s;
+}
 
-.Carousel-Wide-Img {
+.left {
+  margin-left: 0%;
+}
+
+.right {
+  margin-left: -100%;
+}
+
+.Carousel-Slide {
   width: 100%;
+  height: 510px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.Carousel-Slide-Text {
+  padding: 48px;
+  margin: 0 48px 50px 48px;
+  width: 350px;
+}
+
+.Carousel-Slide-Text h2 {
+  font-size: 1.9em;
+  margin-bottom: 12px;
+}
+
+.Carousel-Slide-Text button {
+  margin-top: 10px;
+  background-color: #0067B8;
+  border: none;
+  color: #FFFFFF;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 1.0em;
+  font-family: 'Segoe UI B';
+}
+
+.Carousel-Slide-Text button:hover {
+  background-color: #005ba0;
+  cursor: pointer;
+}
+
+.Carousel-Controls {
+  margin: 20px 0 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow-right {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.Arrow-right:hover {
+  transition: margin 0.2s;
+  margin-left: 20px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.Arrow-left {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.Arrow-left:hover {
+  transition: margin 0.2s;
+  margin-right: 20px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.dot {
+  margin: 0 10px;
 }

@@ -46,6 +46,11 @@
   width: 100%;
 }
 
+.News-Card a:hover {
+  text-decoration: underline;
+}
+
+
 .News-Card-Link-Div {
   margin: 15px 0;
 }

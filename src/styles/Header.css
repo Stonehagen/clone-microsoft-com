@@ -63,3 +63,11 @@
   border-bottom: 2px solid rgb(38, 38, 38);
   cursor: pointer;
 }
+
+.Header-Nav-Right svg:hover {
+  cursor: pointer;
+}
+
+.Header img:hover {
+  cursor: pointer;
+}

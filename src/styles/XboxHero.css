@@ -31,3 +31,8 @@
   font-size: 1.0em;
   font-family: 'Segoe UI B';
 }
+
+.Xbox-Hero-Text button:hover {
+  background-color: #005ba0;
+  cursor: pointer;
+}
